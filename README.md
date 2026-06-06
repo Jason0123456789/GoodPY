@@ -1,4 +1,4 @@
-#遵循WTFPL协议（Do What The Fuck You Want To Public License），要是跟ffmpeg协议冲突，那爱咋咋地吧。
+# 遵循WTFPL协议（Do What The Fuck You Want To Public License），要是跟ffmpeg协议冲突，那爱咋咋地吧。
 
 # 好兄弟牌压缩工具 - 给最爱的电影瘦瘦身
 

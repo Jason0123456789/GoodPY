@@ -602,7 +602,8 @@ class FFmpegCommandBuilder:
             # 直接复制原音频流（不重新编码）
             cmd.extend(["-c:a", "copy"])
         else:
-            cmd.extend(["-c:a", "aac", "-b:a", audio_bitrate])
+            # 去掉可能存在的 "bps" 后缀（如 "128kbps" → "128k"），FFmpeg 只认 "k" 后缀
+            cmd.extend(["-c:a", "aac", "-b:a", audio_bitrate.rstrip("bps")])
 
         # 不使用 -f mp4 强制格式，让 FFmpeg 根据输出扩展名自动选择容器
         # 这样当源音频格式与 MP4 不兼容时，FFmpeg 会自动重编码音频

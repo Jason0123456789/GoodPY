@@ -12,8 +12,9 @@
 
 由于 GitHub 限制单文件不超过 25MB，打包好的 EXE 文件（约 150MB）无法上传至仓库，请通过以下网盘链接下载：
 
-- 夸克网盘：https://pan.quark.cn/s/12f63c580e19
-- 百度网盘：https://pan.baidu.com/s/16N6hLV68z-bHVNoUJZ_UWQ?pwd=p4xj
+- 夸克网盘：https://pan.quark.cn/s/1664eafd928c
+
+- 百度网盘：https://pan.baidu.com/s/1b9YGcuwXcTebyrHymkruhg?pwd=neun
 
 下载后双击 `好兄弟牌压缩工具.exe` 即可使用，无需安装 Python、无需安装 FFmpeg，开箱即用。首次启动较慢（需释放内置 FFmpeg），后续启动正常。
 
